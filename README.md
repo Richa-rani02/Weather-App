@@ -3,6 +3,6 @@ A weather Application created using HTML,CSS,Vanilla Js and used openweatherApi 
 
 # ScreenShots
 <img src="Screenshots/sunny.png" width="300">
-<img src="Screenshots/clear.PNG" width="300">
-<img src="Screenshots/haze.PNG" width="300">
-<img src="Screenshots/cloudy.PNG" width="300">
+<img src="Screenshots/clear.png" width="300">
+<img src="Screenshots/haze.png" width="300">
+<img src="Screenshots/cloudy.png" width="300">
