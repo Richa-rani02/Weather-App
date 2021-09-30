@@ -1,5 +1,8 @@
 var inputdata = document.querySelector("#input-box");
-
+let city = document.querySelector("#city");
+let temp = document.querySelector("#temp");
+let date = document.querySelector("#date");
+let minmax = document.querySelector("#min-max");
 
 
 const weatherApi = {
@@ -35,10 +38,7 @@ function getReport(city) {
 
 function showWeatherReport(weather) {
     //console.log(weather);
-    let city = document.querySelector("#city");
-    let temp = document.querySelector("#temp");
-    let date = document.querySelector("#date");
-    let minmax = document.querySelector("#min-max");
+
     city.innerText = `${weather.name}, ${weather.sys.country}`;
     temp.innerHTML = `${Math.round(weather.main.temp)}&deg;C`;
     //temp.innerText = `${Math.round(weather.main.temp)}&deg;C`;
