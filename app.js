@@ -7,7 +7,7 @@ let minmax = document.querySelector("#min-max");
 
 const weatherApi = {
     key: "e35007066df7cd28f0d3f9bbb66515de",
-    baseUrl: "https://api.openweathermap.org/data/2.5/weather",
+    baseUrl: "http://api.openweathermap.org/data/2.5/weather",
 }
 
 inputdata.addEventListener('keypress', (event) => {
